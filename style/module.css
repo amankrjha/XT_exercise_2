@@ -1,0 +1,40 @@
+.logo{
+	flex-basis: 30%;
+}
+.nav{
+	flex-basis: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;;
+}
+.hero{
+	margin: 30px, 0px;
+	background-color: #C47335;
+	padding: 10px;
+}
+.facebook{
+	background: url("../img/social-1_logo-facebook.svg") no-repeat;
+	width: 32px;
+	height: 32px;
+	text-indent: -999999px;
+}
+
+.evernote{
+	background: url("../img/social-1_logo-evernote.svg") no-repeat;
+	width: 32px;
+	height: 32px;
+	text-indent: -999999px;
+}
+.googleplus{
+	background: url("../img/social-1_logo-google-plus.svg") no-repeat;
+	width: 32px;
+	height: 32px;
+	text-indent: -999999px;
+}
+
+.instagram{
+	background: url("../img/social-1_logo-instagram.svg") no-repeat;
+	width: 32px;
+	height: 32px;
+	text-indent: -999999px;
+}

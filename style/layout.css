@@ -1,0 +1,15 @@
+.container{
+	display: flex;
+}
+.two_block{
+	flex-grow: 2;
+}
+.one_block{
+	flex-grow: 1;
+}
+.coloum_layout{
+	flex-direction: column;
+}
+.thirty_pc{
+	width: 30%;
+}
