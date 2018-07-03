@@ -3,6 +3,7 @@ This file only layout related CSS
 */
 
 .l_container{
+	margin-top: 20px;
 	display: flex;
 	text-align: left;
 }
@@ -28,15 +29,15 @@ This file only layout related CSS
 		display: block;
 	}
 	.l_fifteen_pc{
-		width: 100%;
+		width: 95%;
 	}
 	.l_thirty_pc{
-		width: 100%;
+		width: 95%;
 	}
 	.l_fourty_pc{
-		width: 100%;
+		width: 95%;
 	}
 	.l_sixty_pc{
-		width: 100%;
+		width: 95%;
 	}
 }

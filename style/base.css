@@ -3,9 +3,12 @@ This Style sheet is setting chainging HTML element styles
 */
 body{
 	margin: 10px;
+	font-family: sans-serif;
 }
 h3{
 	color: #444;
+	letter-spacing: 1px;
+	font-weight: 500;
 	text-transform: uppercase;
 }
 h2{
@@ -13,7 +16,9 @@ h2{
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
-
+a{
+	text-decoration: none;
+}
 li{
 	list-style-type: none;
 	padding: 15px;
@@ -49,10 +54,11 @@ aside{
 	padding: 10px;
 }
 footer{
+	margin-top: 20px;
 	display: flex;
 	align-items: : center;
 	justify-content: center;
-	background-color: #333;
+	background-color: #f9f9f9;
 }
 
 

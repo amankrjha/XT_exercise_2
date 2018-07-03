@@ -8,9 +8,10 @@ This CSS file has component related styling
 	color: #444;
 	padding-left: 15px;
 	font-weight: 1000;
-	font-size: 67px;
+	font-size: 50px;
 	letter-spacing: 1px;
 	margin: 0px 0px;
+	padding-right: 20px; 
 }
 .m_nav{
 	flex-basis: 80%;
@@ -25,11 +26,18 @@ This CSS file has component related styling
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
+.m_nav_a:hover{
+	text-decoration: underline;
+}
 .m_hero{
-	margin: 30px, 0px;
-	background-color: white;
-	padding: 10px;
+	margin: 20px 0px;
+	padding: 30px;
 	text-align: center;
+	background-color: #f9f9f9;
+	display: flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .m_hero_pic{
 	width: 70%;
@@ -54,6 +62,25 @@ This CSS file has component related styling
 .m_pie_chart{
 	padding:10px;
 	margin-top: 30px;
+}
+.m_card{
+	border-bottom: 2px solid black;
+	border-radius: 25px;
+	padding-bottom: 20px;
+}
+.m_card_image{
+	border-radius: 25px 25px 0px 0px
+}
+.m_heading_block{
+	margin: 30px 0px;
+}
+
+.m_heading_block:after{
+	content: '';
+    display: block;
+    margin: 30px 0px;
+    width: 40px;
+    border-top: 2px solid #444;
 }
 
 @media(max-width: 500px) {
