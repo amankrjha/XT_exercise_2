@@ -7,7 +7,7 @@ This CSS file has component related styling
 	text-transform: lowercase;
 	color: #444;
 	padding-left: 15px;
-	font-weight: 1000;
+	font-weight: 900;
 	font-size: 50px;
 	letter-spacing: 1px;
 	margin: 0px 0px;
@@ -53,13 +53,14 @@ This CSS file has component related styling
 .m_numbers{
 	color: #1abc9c;
     font-size: 45px;
-    font-weight: 1000;
+    font-weight: 900;
     padding: 20px;
 }
 .m_learnmore{
 	color: #1abc9c;
 }
 .m_pie_chart{
+	width: 50%;
 	padding:10px;
 	margin-top: 30px;
 }
@@ -100,6 +101,9 @@ This CSS file has component related styling
 		padding-left: 0px;
 	}
 	.m_hero_pic{
+		width: 100%;
+	}
+	.m_pie_chart{
 		width: 100%;
 	}
 

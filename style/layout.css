@@ -8,13 +8,16 @@ This file only layout related CSS
 	text-align: left;
 }
 .l_fifteen_pc{
-	width: 15%;	
+	width: 7%;	
+}
+.l_twenty_pc{
+	width: 25%;	
 }
 .l_thirty_pc{
 	width: 30%;
 }
 .l_fourty_pc{
-	width: 40%;
+	width: 20%;
 }
 .l_sixty_pc{
 	width: 60%;
@@ -39,5 +42,8 @@ This file only layout related CSS
 	}
 	.l_sixty_pc{
 		width: 95%;
+	}
+	.l_twenty_pc{
+		width: 95%;	
 	}
 }
