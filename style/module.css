@@ -1,4 +1,7 @@
-.logo{
+/*
+This CSS file has component related styling
+*/
+.m_logo{
 	flex-basis: 20%;
 	border-right: 1px solid lightgray;
 	text-transform: lowercase;
@@ -9,91 +12,67 @@
 	letter-spacing: 1px;
 	margin: 0px 0px;
 }
-.nav{
+.m_nav{
 	flex-basis: 80%;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 }
-.nav_a{
+.m_nav_a{
 	color: #444;
 	font-weight: 700;
 	font-size: 13px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
-.hero{
+.m_hero{
 	margin: 30px, 0px;
 	background-color: white;
 	padding: 10px;
 	text-align: center;
 }
-.hero_pic{
+.m_hero_pic{
 	width: 70%;
 }
-.facebook{
-	background: url("../img/social-1_logo-facebook.svg") no-repeat;
-	width: 32px;
-	height: 32px;
-	text-indent: -999999px;
-}
-
-.evernote{
-	background: url("../img/social-1_logo-evernote.svg") no-repeat;
-	width: 32px;
-	height: 32px;
-	text-indent: -999999px;
-}
-.googleplus{
-	background: url("../img/social-1_logo-google-plus.svg") no-repeat;
-	width: 32px;
-	height: 32px;
-	text-indent: -999999px;
-}
-
-.instagram{
-	background: url("../img/social-1_logo-instagram.svg") no-repeat;
-	width: 32px;
-	height: 32px;
-	text-indent: -999999px;
-}
-.subtitle{
+.m_subtitle{
 	color: #444;
 	font-weight: 300;
 }
-.big_subtitle{
+.m_big_subtitle{
 	color: #777;
 	font-size: 20px;
 }
-.numbers{
+.m_numbers{
 	color: #1abc9c;
     font-size: 45px;
     font-weight: 1000;
     padding: 20px;
 }
-.learnmore{
+.m_learnmore{
 	color: #1abc9c;
 }
-.pie_chart{
+.m_pie_chart{
 	padding:10px;
 	margin-top: 30px;
 }
+
 @media(max-width: 500px) {
 
-	.numbers{
+	.m_numbers{
 		display: inline;
 	}
 
-	.nav{
+	.m_nav{
 		display: block;
 		width: 100%;
 	}
 
-	.logo{
+	.m_logo{
 		width: 100%;
 		text-align: center;
+		padding-left: 0px;
 	}
-	.hero_pic{
+	.m_hero_pic{
 		width: 100%;
 	}
 

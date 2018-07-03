@@ -1,47 +1,42 @@
-.container{
+/*
+This file only layout related CSS
+*/
+
+.l_container{
 	display: flex;
 	text-align: left;
 }
-.two_block{
-	flex-grow: 2;
-}
-.one_block{
-	flex-grow: 1;
-}
-.coloum_layout{
-	flex-direction: column;
-}
-.thirty_pc{
-	width: 30%;
-}
-.sixty_pc{
-	width: 60%;
-}
-.fourty_pc{
-	width: 40%;
-}
-.cent_pc{
-	width: 100%;
-}
-.fifteen_pc{
+.l_fifteen_pc{
 	width: 15%;	
 }
+.l_thirty_pc{
+	width: 30%;
+}
+.l_fourty_pc{
+	width: 40%;
+}
+.l_sixty_pc{
+	width: 60%;
+}
+.l_cent_pc{
+	width: 100%;
+}
+
 @media(max-width: 500px) {
 
-	.container{
+	.l_container{
 		display: block;
 	}
-
-	.thirty_pc{
+	.l_fifteen_pc{
 		width: 100%;
 	}
-	.fourty_pc{
+	.l_thirty_pc{
 		width: 100%;
 	}
-	.sixty_pc{
+	.l_fourty_pc{
 		width: 100%;
 	}
-	.fifteen_pc{
+	.l_sixty_pc{
 		width: 100%;
 	}
 }
