@@ -1,5 +1,6 @@
 .container{
 	display: flex;
+	text-align: left;
 }
 .two_block{
 	flex-grow: 2;
@@ -12,4 +13,35 @@
 }
 .thirty_pc{
 	width: 30%;
+}
+.sixty_pc{
+	width: 60%;
+}
+.fourty_pc{
+	width: 40%;
+}
+.cent_pc{
+	width: 100%;
+}
+.fifteen_pc{
+	width: 15%;	
+}
+@media(max-width: 500px) {
+
+	.container{
+		display: block;
+	}
+
+	.thirty_pc{
+		width: 100%;
+	}
+	.fourty_pc{
+		width: 100%;
+	}
+	.sixty_pc{
+		width: 100%;
+	}
+	.fifteen_pc{
+		width: 100%;
+	}
 }

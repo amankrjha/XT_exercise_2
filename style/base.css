@@ -1,6 +1,16 @@
 body{
 	margin: 0px;
 }
+h3{
+	color: #444;
+	text-transform: uppercase;
+}
+h2{
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
 li{
 	list-style-type: none;
 	padding: 15px;
@@ -10,17 +20,18 @@ ul{
 	padding: 0px;
 }
 nav{
-	border-left: 1px solid silver;
-	background-color: #F19953;
+	background-color: white;
 }
 header{
 	position: fixed;
 	width: 100%;
 	top:0;
-	height: 70px;
-	background-color: #56351E;	
+	height: 75px;
+	background-color: white;	
 	display: flex;	
+	align-items: center;
 	align-content: space-between;
+
 }
 main{
 	margin: 90px 0px 20px;
@@ -29,11 +40,10 @@ main{
 }
 section{
 	padding: 10px;
-	background-color: #2660A4;
+	background-color: white;
 }
 aside{
 	padding: 10px;
-	background-color: #FFD23F;
 }
 footer{
 	display: flex;
@@ -42,3 +52,20 @@ footer{
 	background-color: #F1ECCE;
 }
 
+
+@media(max-width: 500px) {
+
+	header{
+		display: block;	
+		height: 290px;
+	}
+	main{
+		margin: 300px 0px 20px;
+		display: block;
+	}
+	nav a{
+		display: block;
+		text-align: center;
+		min-height: 30px;
+	}
+}
