@@ -13,7 +13,9 @@ h2{
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
-
+a{
+	text-decoration: none;
+}
 li{
 	list-style-type: none;
 	padding: 15px;
@@ -34,6 +36,7 @@ header{
 	display: flex;	
 	align-items: center;
 	align-content: space-between;
+	justify-content: space-between;
 
 }
 main{
@@ -58,10 +61,10 @@ footer{
 
 @media(max-width: 500px) {
 
-	header{
+	/*header{
 		display: block;	
 		height: 290px;
-	}
+	}*/
 	main{
 		margin: 300px 0px 20px;
 		display: block;

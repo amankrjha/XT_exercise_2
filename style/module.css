@@ -1,6 +1,19 @@
 /*
 This CSS file has component related styling
 */
+.m_toggle_nav_span{
+	display: none;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #888;
+    margin:3px 0px;
+}
+.m_toggle_nav_button{
+    background-color: white;
+    border: 0px;
+    margin-right: 25px;
+}
 .m_logo{
 	flex-basis: 20%;
 	border-right: 1px solid lightgray;
@@ -63,7 +76,7 @@ This CSS file has component related styling
 	}
 
 	.m_nav{
-		display: block;
+		display: none;
 		width: 100%;
 	}
 
@@ -75,5 +88,19 @@ This CSS file has component related styling
 	.m_hero_pic{
 		width: 100%;
 	}
+	.m_toggle_nav_span{
+		display: block;
+	}
+}
 
+@media(max-width: 850px) {
+
+	.m_nav{
+		display: none;
+		width: 100%;
+	}
+
+	.m_toggle_nav_span{
+		display: block;
+	}
 }
